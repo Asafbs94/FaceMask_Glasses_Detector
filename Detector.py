@@ -85,13 +85,14 @@ class YOLOV5_Detector:
 
                 print("Total Detections:", len(det))
 
-        #when you detect image uncomment line 89,90,92
+        # when you detect image uncomment line 89,90,92
         # cv2.imshow("Result", img0)
         # cv2.waitKey(0)
         #
         # cv2.destroyAllWindows()
         return img0
-        #when you detect video comment line 89,90,92
+        # when you detect video comment line 89,90,92
+
 
 detector = YOLOV5_Detector(weights='best.pt',
                            img_size=640,
@@ -101,8 +102,8 @@ detector = YOLOV5_Detector(weights='best.pt',
                            augment=True)
 
 img = cv2.imread(r"Dataset/images/image (178).jpg")
-#img = cv2.imread(r"face mask detection/Dataset/images/image(502).jpg")
-#img = cv2.imread(r"face mask detection/Dataset/images/image(503).jpg")
-#img = cv2.imread(r"face mask detection/Dataset/images/image(504).jpg")
-#img = cv2.imread(r"face mask detection/Dataset/images/image(505).jpg")
+# img = cv2.imread(r"face mask detection/Dataset/images/image(502).jpg")
+# img = cv2.imread(r"face mask detection/Dataset/images/image(503).jpg")
+# img = cv2.imread(r"face mask detection/Dataset/images/image(504).jpg")
+# img = cv2.imread(r"face mask detection/Dataset/images/image(505).jpg")
 detector.Detect(img)
