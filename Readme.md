@@ -21,23 +21,8 @@ Follow these steps to set up the project:
 2. Adjust the settings or parameters in the script as needed.
 3. The output will be displayed on the screen, showing detections of people wearing masks or glasses.
 
-
-## Requirements 📋
-
-List the project dependencies and requirements here:
-
-- Python 3.7
-- Cython
-- matplotlib>=3.2.2
-- numpy>=1.18.5
-- opencv-python>=4.1.2
-- Pillow
-- PyYAML>=5.3.1
-- scipy>=1.4.1
-- tensorboard>=2.2
-- torch>=1.7.0
-- torchvision>=0.8.1
-- tqdm>=4.41.0
+## Model
+- Our model uses yolov5(https://github.com/ultralytics/yolov5)
 
 ## License 📄
 
