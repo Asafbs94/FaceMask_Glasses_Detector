@@ -22,7 +22,7 @@ Follow these steps to set up the project:
 3. The output will be displayed on the screen, showing detections of people wearing masks or glasses.
 
 ## Model
-- Our model uses yolov5(https://github.com/ultralytics/yolov5)
+- Our model uses [yolov5](https://github.com/ultralytics/yolov5)
 
 ## License 📄
 
