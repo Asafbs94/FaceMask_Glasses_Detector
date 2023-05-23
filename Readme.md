@@ -1,5 +1,5 @@
 
-# FaceMask & Glasses Dectector ✨
+# ✨ FaceMask & Glasses Dectector ✨
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -11,7 +11,7 @@ The project aims to detect people wearing masks/glasses in live video streams us
 Follow these steps to set up the project:
 
 1. Create a Python 3.7 environment using your preferred method (e.g., virtualenv, conda).
-2. Clone the repository: `git clone [https://github.com/your-username/your-repository.git](https://github.com/BlackChesire/FaceMask_Glasses_Detector.git)`
+2. Clone the repository: `git clone https://github.com/BlackChesire/FaceMask_Glasses_Detector.git`
 3. Navigate to the project directory: `cd FaceMask_Glasses_Detector`
 4. Install the required packages by running the following command: `pip install -r requirements.txt`
 
